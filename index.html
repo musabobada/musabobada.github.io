@@ -1,0 +1,877 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <!-- ============================== basics -->
+    <!-- page title -->
+    <title>lemonPortfolio</title>
+    <meta charset="UTF-8">
+    <!-- for google seo -->
+    <meta name="description" content="">
+    <meta name="author" content="">
+    <!-- for mobile screen -->
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <!-- ============================== vendors -->
+    <!-- general-->
+    <link rel="stylesheet" href="vendors/0css/normalize.css">
+    <!-- FontAwesome-->
+    <link rel="stylesheet" href="vendors/0css/font-awesome.min.css">
+    <!-- bootstrap-->
+    <link rel="stylesheet" href="vendors/bootstrap/bootstrap.min.css">
+    <!-- magnific_Popup-->
+    <link rel="stylesheet" href="vendors/magnific-popup/magnific-popup.css">
+    <!-- owl_Carousel-->
+    <link rel="stylesheet" href="vendors/OwlCarousel2/owl.carousel.min.css">
+    <link rel="stylesheet" href="vendors/OwlCarousel2/owl.theme.default.css">
+    <!-- animate.css-->
+    <link rel="stylesheet" href="vendors/animation/animate.min.css">
+    <!-- animate on scroll-->
+    <link rel="stylesheet" href="vendors/animation/aos/aos.css">
+    <!-- ============================== my styles -->
+    <!-- favicons -->
+    <link rel="shortcut icon" href="img/favicon3.ico" type="image/x-icon">
+    <link rel="icon" href="img/favicon3.ico" type="image/x-icon">
+    <!--styles-->
+    <link rel="stylesheet" href="css/home.css">
+    <!-- ============================== for compatible with IE -->
+    <!-- HTML5 shim, for IE6-8 support of
+        <script src="vendors/js/respond.js"></script>
+        <script src="vendors/js/html5shiv.js"></script>
+        <![endif]
+    -->
+</head>
+
+<body>
+    <!--===================================================================================================
+    /////////////////////////////////////////////    navbar    \\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\
+    ====================================================================================================-->
+    <nav id="navbar" class="navbar wow fadeInDown" data-wow-duration="1s">
+        <div class="wrap">
+            <div class="logo"><a class="color1" href="index.html">lo<span class="white1">go</span></a></div>
+            <div class="toggleButton">
+                <span></span>
+                <span></span>
+                <span></span>
+            </div>
+            <ul class="links text-center">
+                <li class="a-home active "><a href="#home">home</a></li>
+                <li class="a-about"><a href="#about">about</a></li>
+                <li class="a-skills"><a href="#skills">skills</a></li>
+                <li class="a-services"><a href="#services">services</a></li>
+                <li class="a-portfolio"><a href="#portfolio">portfolio</a></li>
+                <li class="a-testimonials"><a href="#testimonials">testimonials</a></li>
+                <li class="a-blog"><a href="#blog">blog</a></li>
+                <li class="a-contact"><a data-scroll href="#contact">contact</a></li>
+                <li class="my-dropdown relative">
+                    <a class="link relative">
+                        <span>pages<i class="fa fa-caret-down fa-lg"></i></span>
+                    </a>
+                    <ul class="my-dropdown-menu">
+                        <li><a href="#">portfolio</a></li>
+                        <li><a href="#">portfolio detail</a></li>
+                        <li class="my-dropdown-divider"></li>
+                        <li><a href="#">blog</a></li>
+                        <li><a href="#">blog detail</a></li>
+                        <li class="my-dropdown-divider"></li>
+                        <li><a href="#">resume</a></li>
+                        <li><a href="#">404 error</a></li>
+                    </ul>
+                </li>
+            </ul>
+            <div class="clearfix"></div>
+        </div>
+    </nav>
+    <!-- ===============================================================================================
+    ///////////////////////////////////////////    header    \\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\
+    ================================================================================================ -->
+    <section id="header">
+        <header class="relative">
+                <ul class="socialLinks overflow-hidden">
+                    <li class="wow fadeInDownBig" data-wow-duration="1s" data-wow-delay="9s"><i class="social fa fa-pinterest-p fa-3x fa-fw"></i></li>
+                    <li class="wow fadeInDownBig" data-wow-duration="1s" data-wow-delay="8.5s"><i class="social fa fa-instagram fa-3x fa-fw"></i></li>
+                    <li class="wow fadeInDownBig" data-wow-duration="1s" data-wow-delay="8s"><i class="social fa fa-twitter fa-3x fa-fw"></i></li>
+                    <li class="wow fadeInDownBig" data-wow-duration="1s" data-wow-delay="7.5s"><i class="social fa fa-facebook fa-3x fa-fw"></i></li>
+                    <li class="wow fadeInDownBig" data-wow-duration="1s" data-wow-delay="7s"><i class="social fa fa-linkedin fa-3x fa-fw"></i></li>
+                    <li class="line relative overflow-hidden"><span class="wow slideInUp" data-wow-duration="1s" data-wow-delay="6.5s"><span></span></span></li>
+                </ul>
+                <div class="headerImg"style="background-image:url('img/header.jpg');background-position: top;">
+                    <div class="caption">
+                        <div class="hello">
+                            <div class="line relative overflow-hidden">
+                                <span class="wow slideInLeft relative overflow-hidden" data-wow-duration="1s"><span></span></span>
+                            </div>
+                            <div class="hh1 relative overflow-hidden">
+                                <h1 class="wow slideInRight" data-wow-duration="1s" data-wow-delay="1s">hello there</h1>
+                            </div>
+                        </div>
+                        <div class="name relative overflow-hidden">
+                            <h1 class="wow slideInDown" data-wow-duration="1s" data-wow-delay="2s">i'm somebody's name</h1>
+                        </div>
+                        <div class="info relative overflow-hidden">
+                            <h1 class="wow slideInDown" data-wow-duration="1s" data-wow-delay="3s">i'm a graphic designer based</h1>
+                        </div>
+                        <div class="place relative overflow-hidden">
+                            <h1 class="wow slideInDown" data-wow-duration="1.5s" data-wow-delay="3.5s">on somewhere</h1>
+                        </div>
+                        <div class="button relative overflow-hidden">
+                            <a id="hire-button" href="#"><button type="button" name="hire" class="my-button2-active wow fadeInLeftBig" data-wow-duration=".5s" data-wow-delay="5.5s">hire me</button></a>
+                            <a id="project-button" href="#"><button type="button" name="about" class="my-button0 wow fadeInLeftBig" data-wow-duration="1s" data-wow-delay="4.5s">my projects</button></a>
+                        </div>
+                    </div>
+                </div>
+        </header>
+    </section>
+    <!-- ===============================================================================================
+    ///////////////////////////////////////////    about    \\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\
+    ================================================================================================ -->
+
+    <section id="about" class="about relative section-padding1">
+        <div class="h2-wrap">
+            <h1 class="my-heading-full1 h2-margin-bottom color1 aos-init aos-animate" data-aos="fade-down" data-aos-delay="0">ab<span class="color2">out</span></h1>
+        </div>
+        <div class="container">
+            <div class="row">
+                <div class="col-md-6">
+                    <div class="img aos-init aos-animate" data-aos="fade-up" data-aos-delay="0">
+                        <img class="width-100" src="img/about.jpg" alt="">
+                    </div>
+                </div>
+                <div class="col-md-6">
+                    <div class="info">
+                        <h2 class="my-heading-half1 h3-margin-bottom aos-init aos-animate" data-aos="fade-up" data-aos-delay="0">about me</h2>
+                        <p class="my-p1 aos-init aos-animate" data-aos="fade-up" data-aos-delay="0">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Cumque aperiam perferendis deserunt consequatur. Alias molestiae aliquid, repudiandae fugit
+                            ex? Vero quia in voluptatibus, laborum, soluta possimus
+                            nesciunt.
+                            Repellat quam, nisi cupiditate magni eius dolores et, recusandae assumenda quidem rem quod nobis doloribus saepe facere quaerat laudantium earum culpa laboriosam natus ipsum tenetur, in esse. Cupiditate facere ipsam
+                            excepturi aut deleniti, quam voluptatem quia veniam, quaerat magni ipsum reprehenderit velit. Aliquam doloremque earum mollitia ducimus possimus exercitationem delectus inventore facere in quis eaque qui quaerat, soluta
+                            cupiditate quae, nostrum ut, consequuntur totam consequatur harum nulla ex velit. Culpa, asperiores libero sequi.</p>
+                        <ul class="capitalize aos-init aos-animate" data-aos="fade-up" data-aos-delay="0">
+                            <li><strong>name </strong><span>somebody name</span></li>
+                            <li><strong>date of birth </strong><span>1th january 1990</span></li>
+                            <li><strong>address </strong><span>london 12th street UK</span></li>
+                            <li><strong>email</strong><span>me@gmail.com</span></li>
+                            <li><strong>phone</strong><span>+1-1234-5678-9-0</span></li>
+                        </ul>
+                        <button class="my-button1 aos-init aos-animate" data-aos="fade-up" data-aos-delay="0">more info</button>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="section-bubble-colored"></div>
+    </section>
+    <!-- ===============================================================================================
+    ///////////////////////////////////////////    skills    \\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\
+    ================================================================================================ -->
+    <section id="skills" class="skills relative capitalize overlay section-padding2" style="background-image: url('img/skills.jpg');">
+        <div class="h2-wrap">
+            <h1 class="my-heading-full2 h2-margin-bottom aos-init aos-animate" data-aos="fade-down">sk<span class="color1">ills</span></h1>
+        </div>
+        <div class="container">
+            <div class="row">
+                <div class="col-md info">
+                    <h2 class="my-heading-half2 h3-margin-bottom aos-init aos-animate" data-aos="fade-up">my skills</h2>
+                    <p class="my-p1 aos-init aos-animate" data-aos="fade-up">lorem ipsum accusamus ipsum, facilis maxime debitis nemo nostrum alias, et quod accusantium reiciendis nam sint, assumenda modi fugit ipsa quam blanditiis deserunt!
+                        Dolore, dolorum, voluptatibus aliquam
+                        quasi deleniti debitis exercitationem iure eius, cupiditate deserunt sit aspernatur tempore expedita aperiam. Voluptate voluptatibus iste, numquam minima saepe voluptates veritatis molestiae totam ducimus.</p>
+                    <button class="my-button2 aos-init aos-animate" data-aos="fade-up">my resume</button>
+                </div>
+                <div class="col-md">
+                    <ul class="bars">
+                        <!-- progress-bar real width is set by css key keframes -->
+                        <li class="ill aos-init aos-animate" data-aos="fade-up" data-aos-anchor=".ill" data-aos-delay="0">
+                            <strong>illustrator</strong>
+                            <div class="progress-container">
+                                <div class="progress-bar bar1">
+                                    <span data-to="71">0</span>
+                                </div>
+                            </div>
+                        </li>
+                        <li class="aos-init aos-animate" data-aos="fade-up" data-aos-anchor=".ill" data-aos-delay="200">
+                            <strong>photoshop</strong>
+                            <div class="progress-container">
+                                <div class="progress-bar bar2">
+                                    <span data-to="87">0</span>
+                                </div>
+                            </div>
+                        </li>
+                        <li class="aos-init aos-animate" data-aos="fade-up" data-aos-anchor=".ill" data-aos-delay="400">
+                            <strong>Adobe XD</strong>
+                            <div class="progress-container">
+                                <div class="progress-bar bar3">
+                                    <span data-to="60">0</span>
+                                </div>
+                            </div>
+                        </li>
+                        <li class="aos-init aos-animate" data-aos="fade-up" data-aos-anchor=".ill" data-aos-delay="600">
+                            <strong>3Ds max</strong>
+                            <div class="progress-container">
+                                <div class="progress-bar bar4">
+                                    <span data-to="42">0</span>
+                                </div>
+                            </div>
+                        </li>
+                        <li class="aos-init aos-animate" data-aos="fade-up" data-aos-anchor=".ill" data-aos-delay="800">
+                            <strong>maya</strong>
+                            <div class="progress-container">
+                                <div class="progress-bar bar5">
+                                    <span data-to="75">0</span>
+                                </div>
+                            </div>
+                        </li>
+                        <li class="aos-init aos-animate" data-aos="fade-up" data-aos-anchor=".ill" data-aos-delay="1000">
+                            <strong>lumian</strong>
+                            <div class="progress-container">
+                                <div class="progress-bar bar6">
+                                    <span data-to="38">0</span>
+                                </div>
+                            </div>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+        <div class="section-bubble-transparent">
+            <div class="wrap"><span></span><span></span></div>
+        </div>
+    </section>
+    <!-- ===============================================================================================
+    //////////////////////////////////////////    services    \\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\
+    ================================================================================================ -->
+    <section id="services" class="services relative section-padding1">
+        <div class="bg-decor d-flex align-items-center justify-content-start" data-parallax-scroll="{&quot;y&quot;: 150,  &quot;smoothness&quot;: 75}"><img src="img/1.png" alt="" /></div>
+        <div class="h2-wrap">
+            <h1 class="my-heading-full1 h2-margin-bottom color1 aos-init aos-animate" data-aos="fade-down">serv<span class="color2">ices</span></h1>
+        </div>
+        <div class="container text-center">
+            <div class="row">
+                <div class="col-sm-6 col-lg-3 aos-init aos-animate" data-aos="fade-up" data-aos-delay="0">
+                    <div><i class="fa fa-paint-brush fa-lg fa-fw"></i>
+                        <h3>logo</h3>
+                        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Vitae iusto voluptatibus excepturi perferendis, iure est necessitatibus veritatis tenetur neque dolorum?</p>
+                        <span>more</span>
+                    </div>
+                </div>
+                <div class="col-sm-6 col-lg-3 aos-init aos-animate" data-aos="fade-up" data-aos-delay="700">
+                    <div><i class="fa fa-pencil fa-lg fa-fw"></i>
+                        <h3>brand identity</h3>
+                        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Vitae iusto voluptatibus excepturi perferendis, iure est necessitatibus veritatis tenetur neque dolorum?</p>
+                        <span>more</span>
+                    </div>
+                </div>
+                <div class="col-sm-6 col-lg-3 aos-init aos-animate" data-aos="fade-up" data-aos-delay="1400">
+                    <div><i class="fa fa-object-group fa-lg fa-fw"></i>
+                        <h3>posters</h3>
+                        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Vitae iusto voluptatibus excepturi perferendis, iure est necessitatibus veritatis tenetur neque dolorum?</p>
+                        <span>more</span>
+                    </div>
+                </div>
+                <div class="col-sm-6 col-lg-3 aos-init aos-animate" data-aos="fade-up" data-aos-delay="2100">
+                    <div><i class="fa fa-plus fa-lg fa-fw"></i>
+                        <h3>more services</h3>
+                        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Vitae iusto voluptatibus excepturi perferendis, iure est necessitatibus veritatis tenetur neque dolorum?</p>
+                        <span>more</span>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="section-bubble-colored"></div>
+    </section>
+    <!-- ===============================================================================================
+    //////////////////////////////////////////    features    \\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\
+    ================================================================================================ -->
+    <section id="features" class="features relative overlay section-padding2" style="background-image: url('img/features.jpg');">
+        <div class="h2-wrap">
+            <h1 class="my-heading-full2 h2-margin-bottom aos-init aos-animate" data-aos="fade-down">why <span class="color1">me</span></h1>
+        </div>
+        <div class="container-fluid  text-center">
+            <div class="row justify-content-center">
+                <div class="col-12 col-sm-6 col-md-4 col-lg-2 aos-init aos-animate" data-aos="fade-up" data-aos-duration="1000" data-aos-delay="0">
+                    <div class="info"><i class="fa fa-flash fa-lg fa-fw"></i>
+                        <p>fast respond</p>
+                    </div>
+                </div>
+                <div class="col-12 col-sm-6 col-md-4 col-lg-2 aos-init aos-animate" data-aos="fade-up" data-aos-duration="1000" data-aos-delay="200">
+                    <div class="info"><i class="fa fa-eye fa-lg fa-fw"></i>
+                        <p>ratina ready</p>
+                    </div>
+                </div>
+                <div class="col-12 col-sm-6 col-md-4 col-lg-2 aos-init aos-animate" data-aos="fade-up" data-aos-duration="1000" data-aos-delay="400">
+                    <div class="info"><i class="fa fa-star-o fa-lg fa-fw"></i>
+                        <p>high performance</p>
+                    </div>
+                </div>
+                <div class="col-12 col-sm-6 col-md-4 col-lg-2 aos-init aos-animate" data-aos="fade-up" data-aos-duration="1000" data-aos-delay="600">
+                    <div class="info"><div class="h"><i class="fa fa-diamond fa-lg fa-fw"></i></div>
+                        <p>heigh quality</p>
+                    </div>
+                </div>
+                <div class="col-12 col-sm-6 col-md-4 col-lg-2 aos-init aos-animate" data-aos="fade-up" data-aos-duration="1000" data-aos-delay="800">
+                    <div class="info"><i class="fa fa-check fa-lg fa-fw"></i>
+                        <p>recheck quality</p>
+                    </div>
+                </div>
+                <div class="col-12 col-sm-6 col-md-4 d-lg-none aos-init aos-animate" data-aos="fade-up" data-aos-duration="1000" data-aos-delay="1000">
+                    <div class="info"><i class="fa fa-check fa-lg fa-fw"></i>
+                        <p>recheck quality</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="section-bubble-transparent">
+            <div class="wrap"><span></span><span></span></div>
+        </div>
+    </section>
+    <!-- ===============================================================================================
+    //////////////////////////////////////////    portfolio    \\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\
+    ================================================================================================ -->
+    <section id="portfolio" class="portfolio relative section-padding1">
+        <!-- <div class="bg-decor d-flex align-items-center justify-content-start" data-parallax-scroll="{&quot;y&quot;: 200,  &quot;smoothness&quot;: 50}"><img src="img/3.png" alt="" /></div> -->
+        <div class="h2-wrap">
+            <h1 class="my-heading-full1 h2-margin-bottom color1 aos-init aos-animate" data-aos="fade-down">my <span class="color2">works</span></h1>
+        </div>
+        <div class="container  text-center">
+            <div class="row filters aos-init aos-animate" data-aos="fade-up">
+                <div class="col-6 col-sm-4 col-lg-2 active">
+                    <div class="my-button1 aos-init aos-animate" data-aos="fade-up" data-aos-delay="0" data-filter="all">all</div>
+                </div>
+                <div class="col-6 col-sm-4 col-lg-2">
+                    <div class="my-button1 aos-init aos-animate" data-aos="fade-up" data-aos-delay="100" data-filter=".logo">logo</div>
+                </div>
+                <div class="col-6 col-sm-4 col-lg-2">
+                    <div class="my-button1 aos-init aos-animate" data-aos="fade-up" data-aos-delay="200" data-filter=".poster">poster</div>
+                </div>
+                <div class="col-6 col-sm-4 col-lg-2">
+                    <div class="my-button1 aos-init aos-animate" data-aos="fade-up" data-aos-delay="300" data-filter=".card">card</div>
+                </div>
+                <div class="col-6 col-sm-4 col-lg-2">
+                    <div class="my-button1 aos-init aos-animate" data-aos="fade-up" data-aos-delay="400" data-filter=".illstration">illstration</div>
+                </div>
+                <div class="col-6 col-sm-4 col-lg-2">
+                    <div class="my-button1 aos-init aos-animate" data-aos="fade-up" data-aos-delay="500" data-filter=".other">other</div>
+                </div>
+            </div>
+        </div>
+        <div id="gallery" class="row gallery text-center aos-init aos-animate" data-aos="fade-up">
+            <!-- Image 1  -->
+            <a href="img/1.jpg" title="portfolio detal Lorem ipsum dolor sit amet" class="img col-sm-6 col-lg-3 mix poster" style="background-image:url('img/1.jpg');background-position:center center;">
+                <div class="over"></div>
+                <div class="info">
+                    <h3>portfolio detail</h3>
+                    <div class="i">
+                        <span><i class="fa fa-eye fa-lg fa-fw"></i>2020</span>
+                        <span><i class="fa fa-thumbs-o-up fa-lg fa-fw"></i>500</span>
+                        <span><i class="fa fa-heart fa-lg fa-fw"></i>55</span>
+                    </div>
+                </div>
+            </a>
+            <!-- Image 2  -->
+            <a href="img/2.jpg" title="portfolio detal Lorem ipsum dolor sit amet" class="img col-sm-6 col-lg-3 mix poster logo" style="background-image:url('img/2.jpg') ;background-position:center center;">
+                <div class="over"></div>
+                <div class="info">
+                    <h3>portfolio detail</h3>
+                    <div class="i">
+                        <span><i class="fa fa-eye fa-lg fa-fw"></i>2020</span>
+                        <span><i class="fa fa-thumbs-o-up fa-lg fa-fw"></i>500</span>
+                        <span><i class="fa fa-heart fa-lg fa-fw"></i>55</span>
+                    </div>
+                </div>
+            </a>
+            <!-- Image 3  -->
+            <a href="img/3.jpeg" title="portfolio detal Lorem ipsum dolor sit amet" class="img col-sm-6 col-lg-3 mix illstration" style="background-image:url('img/3.jpeg');background-position:center center;">
+                <div class="over"></div>
+                <div class="info">
+                    <h3>portfolio detail</h3>
+                    <div class="i">
+                        <span><i class="fa fa-eye fa-lg fa-fw"></i>2020</span>
+                        <span><i class="fa fa-thumbs-o-up fa-lg fa-fw"></i>500</span>
+                        <span><i class="fa fa-heart fa-lg fa-fw"></i>55</span>
+                    </div>
+                </div>
+            </a>
+            <!-- Image 4  -->
+            <a href="img/4.jpg" title="portfolio detal Lorem ipsum dolor sit amet" class="img col-sm-6 col-lg-3 mix card illstration" style="background-image:url('img/4.jpg') ;background-position:center center;">
+                <div class="over"></div>
+                <div class="info">
+                    <h3>portfolio detail</h3>
+                    <div class="i">
+                        <span><i class="fa fa-eye fa-lg fa-fw"></i>2020</span>
+                        <span><i class="fa fa-thumbs-o-up fa-lg fa-fw"></i>500</span>
+                        <span><i class="fa fa-heart fa-lg fa-fw"></i>55</span>
+                    </div>
+                </div>
+            </a>
+            <!-- Image 5  -->
+            <a href="img/5.jpeg" title="portfolio detal Lorem ipsum dolor sit amet" class="img col-sm-6 col-lg-3 mix other illstration" style="background-image:url('img/5.jpeg');background-position:center center;">
+                <div class="over"></div>
+                <div class="info">
+                    <h3>portfolio detail</h3>
+                    <div class="i">
+                        <span><i class="fa fa-eye fa-lg fa-fw"></i>2020</span>
+                        <span><i class="fa fa-thumbs-o-up fa-lg fa-fw"></i>500</span>
+                        <span><i class="fa fa-heart fa-lg fa-fw"></i>55</span>
+                    </div>
+                </div>
+            </a>
+            <!-- Image 6  -->
+            <a href="img/6.jpeg" title="portfolio detal Lorem ipsum dolor sit amet" class="img col-sm-6 col-lg-3 mix illstration" style="background-image:url('img/6.jpeg') ;background-position:center center;">
+                <div class="over"></div>
+                <div class="info">
+                    <h3>portfolio detail</h3>
+                    <div class="i">
+                        <span><i class="fa fa-eye fa-lg fa-fw"></i>2020</span>
+                        <span><i class="fa fa-thumbs-o-up fa-lg fa-fw"></i>500</span>
+                        <span><i class="fa fa-heart fa-lg fa-fw"></i>55</span>
+                    </div>
+                </div>
+            </a>
+            <!-- Image 7  -->
+            <a href="img/7.jpg" title="portfolio detal Lorem ipsum dolor sit amet" class="img col-sm-6 col-lg-3 mix poster logo" style="background-image:url('img/7.jpg');background-position:center center;">
+                <div class="over"></div>
+                <div class="info">
+                    <h3>portfolio detail</h3>
+                    <div class="i">
+                        <span><i class="fa fa-eye fa-lg fa-fw"></i>2020</span>
+                        <span><i class="fa fa-thumbs-o-up fa-lg fa-fw"></i>500</span>
+                        <span><i class="fa fa-heart fa-lg fa-fw"></i>55</span>
+                    </div>
+                </div>
+            </a>
+            <!-- Image 8  -->
+            <a href="img/8.jpg" title="portfolio detal Lorem ipsum dolor sit amet" class="img col-sm-6 col-lg-3 mix poster logo" style="background-image:url('img/8.jpg') ;background-position:center center;">
+                <div class="over"></div>
+                <div class="info">
+                    <h3>portfolio detail</h3>
+                    <div class="i">
+                        <span><i class="fa fa-eye fa-lg fa-fw"></i>2020</span>
+                        <span><i class="fa fa-thumbs-o-up fa-lg fa-fw"></i>500</span>
+                        <span><i class="fa fa-heart fa-lg fa-fw"></i>55</span>
+                    </div>
+                </div>
+            </a>
+            <!-- hidden items-->
+            <!-- Image 9 -->
+            <a href="img/9.jpg" title="portfolio detal Lorem ipsum dolor sit amet" class="img more col-sm-6 col-lg-3 mix card other" style="background-image:url('img/9.jpg');background-position:center center;">
+                <div class="over"></div>
+                <div class="info">
+                    <h3>portfolio detail</h3>
+                    <div class="i">
+                        <span><i class="fa fa-eye fa-lg fa-fw"></i>2020</span>
+                        <span><i class="fa fa-thumbs-o-up fa-lg fa-fw"></i>500</span>
+                        <span><i class="fa fa-heart fa-lg fa-fw"></i>55</span>
+                    </div>
+                </div>
+            </a>
+            <!-- Image 10  -->
+            <a href="img/10.jpeg" title="portfolio detal Lorem ipsum dolor sit amet" class="img more col-sm-6 col-lg-3 mix illstration" style="background-image:url('img/10.jpeg') ;background-position:center center;">
+                <div class="over"></div>
+                <div class="info">
+                    <h3>portfolio detail</h3>
+                    <div class="i">
+                        <span><i class="fa fa-eye fa-lg fa-fw"></i>2020</span>
+                        <span><i class="fa fa-thumbs-o-up fa-lg fa-fw"></i>500</span>
+                        <span><i class="fa fa-heart fa-lg fa-fw"></i>55</span>
+                    </div>
+                </div>
+            </a>
+            <!-- Image 11  -->
+            <a href="img/11.jpg" title="portfolio detal Lorem ipsum dolor sit amet" class="img more col-sm-6 col-lg-3 mix other" style="background-image:url('img/11.jpg');background-position:center center;">
+                <div class="over"></div>
+                <div class="info">
+                    <h3>portfolio detail</h3>
+                    <div class="i">
+                        <span><i class="fa fa-eye fa-lg fa-fw"></i>2020</span>
+                        <span><i class="fa fa-thumbs-o-up fa-lg fa-fw"></i>500</span>
+                        <span><i class="fa fa-heart fa-lg fa-fw"></i>55</span>
+                    </div>
+                </div>
+            </a>
+            <!-- Image 12  -->
+            <a href="img/12.jpg" title="portfolio detal Lorem ipsum dolor sit amet" class="img more col-sm-6 col-lg-3 mix card" style="background-image:url('img/12.jpg') ;background-position:center center;">
+                <div class="over"></div>
+                <div class="info">
+                    <h3>portfolio detail</h3>
+                    <div class="i">
+                        <span><i class="fa fa-eye fa-lg fa-fw"></i>2020</span>
+                        <span><i class="fa fa-thumbs-o-up fa-lg fa-fw"></i>500</span>
+                        <span><i class="fa fa-heart fa-lg fa-fw"></i>55</span>
+                    </div>
+                </div>
+            </a>
+            <!-- Image 13  -->
+            <a href="img/13.jpg" title="portfolio detal Lorem ipsum dolor sit amet" class="img more col-sm-6 col-lg-3 mix poster" style="background-image:url('img/13.jpg');background-position:center center;">
+                <div class="over"></div>
+                <div class="info">
+                    <h3>portfolio detail</h3>
+                    <div class="i">
+                        <span><i class="fa fa-eye fa-lg fa-fw"></i>2020</span>
+                        <span><i class="fa fa-thumbs-o-up fa-lg fa-fw"></i>500</span>
+                        <span><i class="fa fa-heart fa-lg fa-fw"></i>55</span>
+                    </div>
+                </div>
+            </a>
+            <!-- Image 14  -->
+            <a href="img/14.jpeg" title="portfolio detal Lorem ipsum dolor sit amet" class="img more col-sm-6 col-lg-3 mix illstration" style="background-image:url('img/14.jpeg') ;background-position:center center;">
+                <div class="over"></div>
+                <div class="info">
+                    <h3>portfolio detail</h3>
+                    <div class="i">
+                        <span><i class="fa fa-eye fa-lg fa-fw"></i>2020</span>
+                        <span><i class="fa fa-thumbs-o-up fa-lg fa-fw"></i>500</span>
+                        <span><i class="fa fa-heart fa-lg fa-fw"></i>55</span>
+                    </div>
+                </div>
+            </a>
+            <!-- Image 15  -->
+            <a href="img/15.jpg" title="portfolio detal Lorem ipsum dolor sit amet" class="img more col-sm-6 col-lg-3 mix card" style="background-image:url('img/15.jpg');background-position:center center;">
+                <div class="over"></div>
+                <div class="info">
+                    <h3>portfolio detail</h3>
+                    <div class="i">
+                        <span><i class="fa fa-eye fa-lg fa-fw"></i>2020</span>
+                        <span><i class="fa fa-thumbs-o-up fa-lg fa-fw"></i>500</span>
+                        <span><i class="fa fa-heart fa-lg fa-fw"></i>55</span>
+                    </div>
+                </div>
+            </a>
+            <!-- Image 16  -->
+            <a href="img/16.jpg" title="portfolio detal Lorem ipsum dolor sit amet" class="img more col-sm-6 col-lg-3 mix illstration" style="background-image:url('img/16.jpg') ;background-position:center center;">
+                <div class="over"></div>
+                <div class="info">
+                    <h3>portfolio detail</h3>
+                    <div class="i">
+                        <span><i class="fa fa-eye fa-lg fa-fw"></i>2020</span>
+                        <span><i class="fa fa-thumbs-o-up fa-lg fa-fw"></i>500</span>
+                        <span><i class="fa fa-heart fa-lg fa-fw"></i>55</span>
+                    </div>
+                </div>
+            </a>
+        </div>
+        <div class="container  text-center">
+            <button class="my-button1 see-more">see more</button>
+            <button class="my-button1 see-less">see less</button>
+        </div>
+        <div class="section-bubble-colored"></div>
+    </section>
+    <!-- ===============================================================================================
+    ////////////////////////////////////////    testimonials    \\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\
+    ================================================================================================ -->
+    <section id="testimonials" class="testimonials relative overlay section-padding2" style="background-image: url('img/testimonials.jpg');">
+        <div class="h2-wrap">
+            <h1 class="my-heading-full2 h2-margin-bottom aos-init aos-animate" data-aos="fade-down">what pe<span class="color1">ole say</span></h1>
+        </div>
+        <div class="owl-carousel owl-theme">
+            <!-- person 1 -->
+            <div class="itemCover aos-init aos-animate" data-aos="fade-up">
+                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Sed maiores distinctio similique, quidem, ex soluta quis nesciunt nihil delectus accusamus voluptatum. Odio dicta repellendus modi accusamus minus animi eos optio.</p>
+                <h4>smith</h4>
+                <span>ceo apple</span>
+                <div class="img" style="background-image:url('img/testimonial.jpg');"></div>
+            </div>
+            <!-- person 2 -->
+            <div class="itemCover aos-init aos-animate" data-aos="fade-up">
+                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Numquam iure nobis ut, expedita at cupiditate, quis, quasi accusamus dolores consequuntur accusantium. Architecto at impedit harum, quo perferendis eius quod facilis.</p>
+                <h4>adam</h4>
+                <span>web devoloper</span>
+                <div class="img" style="background-image:url('img/testimonial.jpg');"></div>
+            </div>
+            <!-- person 3 -->
+            <div class="itemCover aos-init aos-animate" data-aos="fade-up">
+                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Voluptate dignissimos praesentium deserunt facere adipisci, saepe assumenda, officia animi architecto culpa ea eius vero ducimus neque, vel autem illum obcaecati excepturi!
+                </p>
+                <h4>ali</h4>
+                <span>graphic designer</span>
+                <div class="img" style="background-image:url('img/testimonial.jpg');"></div>
+            </div>
+            <!-- person 4 -->
+            <div class="itemCover aos-init aos-animate" data-aos="fade-up">
+                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Eius distinctio voluptate officiis unde obcaecati repellat accusantium nostrum iure, magni praesentium ipsa, doloribus nemo sit, mollitia architecto officia et eos beatae.
+                </p>
+                <h4>john</h4>
+                <span>bussiness man</span>
+                <div class="img" style="background-image:url('img/testimonial.jpg');"></div>
+            </div>
+            <!-- person 5 -->
+            <div class="itemCover aos-init aos-animate" data-aos="fade-up">
+                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Totam, ratione, reiciendis. Fuga ducimus deleniti tenetur facilis beatae sequi repudiandae nulla, aut quibusdam explicabo provident! Deserunt dicta quas, repudiandae
+                    reprehenderit maiores.</p>
+                <h4>mohammed</h4>
+                <span>ceo apple</span>
+                <div class="img" style="background-image:url('img/testimonial.jpg');"></div>
+            </div>
+            <!-- person 6 -->
+            <div class="itemCover aos-init aos-animate" data-aos="fade-up">
+                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Totam, ratione, reiciendis. Fuga ducimus deleniti tenetur facilis beatae sequi repudiandae nulla, aut quibusdam explicabo provident! Deserunt dicta quas, repudiandae
+                    reprehenderit maiores.</p>
+                <h4>hassan</h4>
+                <span>ceo apple</span>
+                <div class="img" style="background-image:url('img/testimonial.jpg');"></div>
+            </div>
+        </div>
+        <div class="section-bubble-transparent">
+            <div class="wrap"><span></span><span></span></div>
+        </div>
+    </section>
+    <!-- ===============================================================================================
+    ////////////////////////////////////////////    blog    \\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\
+    ================================================================================================ -->
+    <section id="blog" class="blog relative section-padding1">
+        <div class="bg-decor d-flex align-items-center justify-content-start" data-parallax-scroll="{&quot;y&quot;: 200,  &quot;smoothness&quot;: 50}"><img src="img/2.png" alt="" /></div>
+        <div class="h2-wrap">
+            <h1 class="my-heading-full1 h2-margin-bottom color1 aos-init aos-animate" data-aos="fade-down">recent <span class="color2">blog</span></h1>
+        </div>
+        <div class="container">
+            <div class="row">
+                <div class="col-12 col-sm-6 col-md-4 aos-init aos-animate" data-aos="fade-up" data-aos-delay="50">
+                    <div class="wrap">
+                        <div class="img">
+                            <img class="width-100" src="img/blog1.jpg" alt="">
+                            <div class="date"><span><i class="fa fa-calendar fa-fw"></i></span>22 / jan / 2019</div>
+                        </div>
+                        <div class="info">
+                            <div class="title">
+                                <h3>revolition</h3>
+                                <div class="icons">
+                                    <span>50</span><i class="fa fa-eye fa-fw"></i>
+                                    <span>22</span><i class="fa fa-comment-o fa-fw"></i>
+                                </div>
+                                <div class="clearfix"></div>
+                            </div>
+                            <div class="author">by somebody's name</h4>
+                            </div>
+                            <p class="my-p2">Lorem ipsum dollor sijhjt amhhet, conseetur adipcing elit. Accusantium laborum aut pariatur non, ad amet tenetur laboriosam officia, enim ipsa voluptatibus vel, harum tempore corporis doloremque possimus
+                                animi ea quae!</p>
+                            <span>read more ...</span>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-12 col-sm-6 col-md-4 aos-init aos-animate" data-aos="fade-up" data-aos-delay="500">
+                    <div class="wrap">
+                        <div class="img">
+                            <img class="width-100" src="img/blog2.jpg" alt="">
+                            <div class="date"><span><i class="fa fa-calendar fa-fw"></i></span>22 / jan / 2019</div>
+                        </div>
+                        <div class="info">
+                            <div class="title">
+                                <h3>revolition</h3>
+                                <div class="icons">
+                                    <span>50</span><i class="fa fa-eye fa-fw"></i>
+                                    <span>22</span><i class="fa fa-comment-o fa-fw"></i>
+                                </div>
+                                <div class="clearfix"></div>
+                            </div>
+                            <div class="author">by somebody name</h4>
+                            </div>
+                            <p class="my-p2">Lorem ipsum dollor sijhjt amhhet, conseetur adipcing elit. Accusantium laborum aut pariatur non, ad amet tenetur laboriosam officia, enim ipsa voluptatibus vel, harum tempore corporis doloremque possimus
+                                animi ea quae!</p>
+                            <span>read more ...</span>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-12 col-sm-6 col-md-4 aos-init aos-animate" data-aos="fade-up" data-aos-delay="1000">
+                    <div class="wrap">
+                        <div class="img">
+                            <img class="width-100" src="img/blog3.jpg" alt="">
+                            <div class="date"><span><i class="fa fa-calendar fa-fw"></i></span>22 / jan / 2019</div>
+                        </div>
+                        <div class="info">
+                            <div class="title">
+                                <h3>revolition</h3>
+                                <div class="icons">
+                                    <span>50</span><i class="fa fa-eye fa-fw"></i>
+                                    <span>22</span><i class="fa fa-comment-o fa-fw"></i>
+                                </div>
+                                <div class="clearfix"></div>
+                            </div>
+                            <div class="author">by somebody name</h4>
+                            </div>
+                            <p class="my-p2">Lorem ipsum dollor sijhjt amhhet, conseetur adipcing elit. Accusantium laborum aut pariatur non, ad amet tenetur laboriosam officia, enim ipsa voluptatibus vel, harum tempore corporis doloremque possimus
+                                animi ea quae!</p>
+                            <span>read more ...</span>
+                        </div>
+                    </div>
+                </div>
+                <div class="d-none d-sm-block d-md-none col-sm-6 aos-init aos-animate" data-aos="fade-up" data-aos-delay="1000">
+                    <div class="wrap">
+                        <div class="img">
+                            <img class="width-100" src="img/blog3.jpg" alt="">
+                            <div class="date"><span><i class="fa fa-calendar fa-fw"></i></span>22 / jan / 2019</div>
+                        </div>
+                        <div class="info">
+                            <div class="title">
+                                <h3>revolition</h3>
+                                <div class="icons">
+                                    <span>50</span><i class="fa fa-eye fa-fw"></i>
+                                    <span>22</span><i class="fa fa-comment-o fa-fw"></i>
+                                </div>
+                                <div class="clearfix"></div>
+                            </div>
+                            <div class="author">by somebody name</h4>
+                            </div>
+                            <p class="my-p2">Lorem ipsum dollor sijhjt amhhet, conseetur adipcing elit. Accusantium laborum aut pariatur non, ad amet tenetur laboriosam officia, enim ipsa voluptatibus vel, harum tempore corporis doloremque possimus
+                                animi ea quae!</p>
+                            <span>read more ...</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="wrap"><span></span><span></span></div>
+    </section>
+    <!-- ===============================================================================================
+    //////////////////////////////////////////    experience    \\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\
+    ================================================================================================ -->
+    <section id="experience" class="experience relative overlay section-padding2 capitalize" style="background-image: url('img/experince.jpg');">
+        <div class="h2-wrap">
+            <h1 class="my-heading-full2 h2-margin-bottom aos-init aos-animate" data-aos="fade-down">never <span class="color1">give up</span></h1>
+        </div>
+        <div class="container-fluid  text-center ">
+            <div class="row justify-content-center">
+                <div class="col-12 col-sm-6 col-md-4 col-lg-2 aos-init aos-animate" data-aos="fade-up" data-aos-duration="1000" data-aos-delay="0">
+                    <div class="info"> <i class="fa fa-home fa-lg fa-fw"></i>
+                        <span data-to="12">0</span>
+                        <p>years experience</p>
+                    </div>
+                </div>
+                <div class="col-12 col-sm-6 col-md-4 col-lg-2 aos-init aos-animate" data-aos="fade-up" data-aos-duration="1000" data-aos-delay="250">
+                    <div class="info"> <i class="fa fa-skyatlas fa-lg fa-fw"></i>
+                        <span data-to="11500">0</span>
+                        <p>hours of work</p>
+                    </div>
+                </div>
+                <div class="col-12 col-sm-6 col-md-4 col-lg-2 aos-init aos-animate" data-aos="fade-up" data-aos-duration="1000" data-aos-delay="500">
+                    <div class="info"> <i class="fa fa-gift fa-lg fa-fw"></i>
+                        <span data-to="3000">0</span>
+                        <p>finished projects</p>
+                    </div>
+                </div>
+                <div class="col-12 col-sm-6 col-md-4 col-lg-2 aos-init aos-animate" data-aos="fade-up" data-aos-duration="1000" data-aos-delay="750">
+                    <div class="info"> <i class="fa fa-magic fa-lg fa-fw"></i>
+                        <span data-to="7000">0</span>
+                        <p>happy clients</p>
+                    </div>
+                </div>
+                <div class="col-12 col-sm-6 col-md-4 col-lg-2 aos-init aos-animate" data-aos="fade-up" data-aos-duration="1000" data-aos-delay="1000">
+                    <div class="info"> <i class="fa fa-bicycle fa-lg fa-fw"></i>
+                        <span data-to="140">0</span>
+                        <p>awwards</p>
+                    </div>
+                </div>
+                <div class="col-12 col-sm-6 col-md-4 d-lg-none aos-init aos-animate" data-aos="fade-up" data-aos-duration="1000" data-aos-delay="1000">
+                    <div class="info"> <i class="fa fa-bicycle fa-lg fa-fw"></i>
+                        <span data-to="140">0</span>
+                        <p>awwards</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="section-bubble-transparent">
+            <div class="wrap"><span></span><span></span></div>
+        </div>
+    </section>
+    <!-- ===============================================================================================
+    ///////////////////////////////////////////    contact    \\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\
+    ================================================================================================ -->
+    <section id="contact" class="contact relative section-padding1">
+        <!-- <div class="bg-decor d-flex align-items-center justify-content-start" data-parallax-scroll="{&quot;y&quot;: -200,  &quot;smoothness&quot;: 50}"><img src="img/5.png" alt="" /></div> -->
+        <div class="h2-wrap">
+            <h1 class="my-heading-full1 h2-margin-bottom color1 aos-init aos-animate" data-aos="fade-down">get in <span class="color2">touch</span></h1>
+        </div>
+        <div class="container-fluid section-padding">
+            <div class="row">
+                <div class="info col-12 col-md-6">
+                    <h2 class="my-heading-half1 h3-margin-bottom faq aos-init aos-animate" data-aos="fade-up" data-aos-anchor=".faq" data-aos-delay="0">have a question ?</h2>
+                    <p class="my-p1" data-aos="fade-up" data-aos-anchor=".faq" data-aos-delay="500">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Totam architecto hic nemo. Eum corporis, obcaecati, inventore officia cum expeeos, qui nobis
+                        excepturi laborum at error adipisci aliquid voluptatibus?</p>
+                    <ul data-aos="fade-up" data-aos-anchor=".faq" data-aos-delay="1000">
+                        <li><i class="fa fa-map-marker fa-fw"></i>
+                            <strong>Khaja Road, Bayzid, Chittagong, Bangladesh</strong>
+                        </li>
+                        <li><i class="fa fa-phone fa-fw"></i>
+                            <strong>+880-31-000-000</strong>
+                        </li>
+                        <li><i class="fa fa-envelope-o fa-fw"></i>
+                            <strong>hello@meghna.com</strong>
+                        </li>
+                        <li><i class="fa fa-globe fa-fw"></i>
+                            <strong>www.somebody.com</strong>
+                        </li>
+                    </ul>
+                    <ul data-aos="fade-up" data-aos-anchor=".faq" data-aos-delay="1300">
+                        <li><i class="fa fa-pinterest-p fa-fw"></i></li>
+                        <li><i class="fa fa-facebook fa-fw"></i></li>
+                        <li><i class="fa fa-twitter fa-fw"></i></li>
+                        <li><i class="fa fa-google-plus fa-fw"></i></li>
+                        <li><i class="fa fa-linkedin fa-fw"></i></li>
+                        <li><i class="fa fa-instagram fa-fw"></i></li>
+                    </ul>
+                </div>
+                <div class="input col-12 col-md-6">
+                    <form action="">
+                        <input type="text" name="name" placeholder="your name" class="input-name aos-init aos-animate" data-aos="fade-up" data-aos-anchor=".ill" data-aos-delay="0">
+                        <input type="email" name="email" placeholder="your email" class="aos-init aos-animate" data-aos="fade-up" data-aos-anchor=".input-name" data-aos-delay="333">
+                        <input type="email" name="email" placeholder="select" class="aos-init aos-animate" data-aos="fade-up" data-aos-anchor=".input-name" data-aos-delay="666">
+                        <textarea name="messege" placeholder="messege" class="aos-init aos-animate" data-aos="fade-up" data-aos-anchor=".input-name" data-aos-delay="1000"></textarea>
+                        <!-- <input style="display: none;" class="submit" type="submit" name="submit" value="send"> -->
+                    </form>
+                    <div class="fly-button aos-init aos-animate" data-aos="fade-up" data-aos-anchor=".input-name" data-aos-delay="1500">
+                        <link href="https://fonts.googleapis.com/css?family=Pacifico" rel="stylesheet">
+                        <button>
+                            <p>Send</p>
+                            <svg version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px" viewBox="0 0 512 512" enable-background="new 0 0 512 512" xml:space="preserve">
+                                <path id="paper-plane-icon" d="M462,54.955L355.371,437.187l-135.92-128.842L353.388,167l-179.53,124.074L50,260.973L462,54.955z
+                                    M202.992,332.528v124.517l58.738-67.927L202.992,332.528z"></path>
+                            </svg>
+                        </button>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- ===============================================================================================
+    ////////////////////////////////////////////    footer    \\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\
+    ================================================================================================ -->
+    <section class="footer text-center">
+        <div class="container text-center">
+            <div class="row">
+                <div class="col-12 col-md-6 text-md-left copy">CopyRight &copy; 2020 All rights reserved</div>
+                <div class="col-12 col-md-6 text-md-right">This template is made with by <a href="#"><strong class="color1">somebody</strong></a></div>
+            </div>
+        </div>
+    </section>
+    <!-- ===============================================================================================
+    //////////////////////////////////////    absolute element    \\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\
+    ================================================================================================ -->
+    <!-- ============================== scroll top -->
+    <div class="scroll-top">
+        <i class="fa fa-long-arrow-up fa-lg"></i>
+    </div>
+    <!-- ===============================================================================================
+    ///////////////////////////////////////////    script    \\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\
+    ================================================================================================ -->
+    <!-- ============================== jquer -->
+    <script src="vendors/0js/jquery-3.3.1.min.js"></script>
+    <!-- ============================== respond -->
+    <script src="vendors/0js/respond.js"></script>
+    <!-- ============================== smooth scroll-->
+    <script src="vendors/0js/smooth-scroll.min.js"></script>
+    <!-- ============================== wow js -->
+    <script src="vendors/0js/wow.min.js"></script>
+    <!-- ============================== wow js -->
+    <script src="vendors/0js/parallax.js"></script>
+    <!-- ============================== aos js -->
+    <script src="vendors/animation/aos/aos.js"></script>
+    <!-- ============================== OwlCarousel2 -->
+    <script src="vendors/OwlCarousel2/owl.carousel.min.js"></script>
+    <!-- ============================== bootstrap -->
+    <script src="vendors/bootstrap/bootstrap.min.js"></script>
+    <!-- ============================== mixitup-->
+    <script src="vendors/0js/mixitup.min.js"></script>
+    <!-- ============================== magnific popup -->
+    <script src="vendors/magnific-popup/jquery.magnific-popup.min.js"></script>
+    <!-- ============================== countTo-->
+    <script src="vendors/0js/jquery.countTo.js"></script>
+    <!-- ============================== myJs -->
+    <script src="js/custom.js" type="application/javascript"></script>
+</body>
+
+</html>
